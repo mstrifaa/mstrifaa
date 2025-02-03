@@ -43,7 +43,7 @@ showMoreOpts.forEach( (element) =>
         }
         else if(event.target.innerHTML==='Show less'){
 
-            event.target.previousElementSibling.style.overflow = 'clip';
+            event.target.previousElementSibling.style.overflow = 'hidden';
             event.target.parentElement.style.height = '30vh';
 
             event.target.innerHTML='Show more';
