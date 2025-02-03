@@ -400,7 +400,7 @@ footer{
 footer a{
     color: white;
     
-    tansition: 200ms;
+    transition: 200ms;
 }
 footer a:hover{
     transform: scale(1.2);
