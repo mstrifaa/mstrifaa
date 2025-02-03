@@ -246,7 +246,7 @@ i:focus, i:hover{
     padding: 0.5rem;
     color: rgb(208, 207, 216);
     text-align: left;
-    overflow: clip;
+    overflow: hidden;
 
     font-family: Muli, sans-serif;
     line-height: 150%;
