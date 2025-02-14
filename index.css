@@ -1,8 +1,12 @@
+/* global scope variables go in the root element */
 :root{
-    --primary-color: #2F5233;
-    --secondary-color : #76B947;
-    --accent-dark: #94C973;
-    --accent-light: #B1D8B7;
+    --primary-color: #1B4200;
+    --secondary-color : #BFFFB8; /*more like a light-neutral */
+    --text-color-light: #F3FFF1;
+    --text-color-dark: #112900;
+    --accent: #3D5F25;
+/*     --accent-dark: #94C973;
+    --accent-light: #B1D8B7; */
     
 }
 
@@ -11,7 +15,7 @@
     margin: 0;
 }
 #pre-loader{
-    background-color: rgb(191, 214, 236);
+    background-color: var(--secondary-color);
     background-image: url(media/loader.gif);
     background-repeat: no-repeat;
     background-position: center;
@@ -24,7 +28,7 @@
 
 
 .navigation{
-    background-color: rgb(245, 245, 245);
+    background-color: var(--secondary-color);
     width: 100%;
 
     /* want transformation */
@@ -77,15 +81,15 @@ ul,
     transition: background-color 150ms ease;
 }
 .nav-link:hover{
-    background-color: rgb(208, 207, 216); /*changed*/
-    color: rgb(3, 3, 83); /*changed*/
+    background-color: var(--secondary-color); /*changed*/
+    color: var(--text-color-dark); /*changed*/
 }
 a{
-    color: navy; /*changed*/
+    color: var(--text-color-dark); /*changed*/
     text-decoration: none;
 }
 a:hover{
-    color: rgb(3, 3, 83); /*changed*/
+    color: var(--text-color-dark); /*changed*/
 }
 #nav-small, 
 #icon-for-nav-small{
@@ -97,7 +101,7 @@ a:hover{
 #tech-and-tools,
 #contact-section{
     
-    border: 1px solid navy;  /*changed*/
+    border: 1px solid var(--primary-color);  /*changed*/
     /* border-radius: 1rem; */
     padding: 1.5rem;
 
@@ -106,7 +110,7 @@ a:hover{
 
 #first-section{
     height: max-content;
-    background-color: navy; /*changed*/
+    background-color: var(--primary-color); /*changed*/
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     
@@ -119,7 +123,7 @@ a:hover{
     text-align: center;
     height: 70vh;
     
-    color: white;
+    color: var(--text-color-light);
 }
 #my-description,
 #my-photo{
@@ -180,7 +184,7 @@ a:hover{
     max-height: 95%;
     max-width: inherit;
   
-    box-shadow: 0rem 0rem 10px 1px navy;
+/*     box-shadow: 0rem 0rem 10px 1px var(--primary-color); */
 }
 
 i{
@@ -190,21 +194,21 @@ i{
     /* color: aliceblue; */
 }
 i:focus, i:hover{
-    background-color: rgb(204, 205, 243);
+    background-color: var(--secondary-color);
     
 }
 
 
 #works-section{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: var(--secondary-color);
     height: max-content;
     
 }
 #works-section>p{
     margin-bottom: 1rem;
     font-size: 2rem;
-    color: navy;
+    color: var(--text-color-dark);
     font-family: Ubuntu, sans-serif;
     text-decoration: underline;
 }
@@ -230,8 +234,8 @@ i:focus, i:hover{
     /* max-width: 100%; */
     /* max-height: max-content; */
 
-    color: whitesmoke;
-    background-color: navy;
+    color: var(--text-color-light);
+    background-color: var(--primary-color);
     
    
     padding: 1rem;
@@ -244,7 +248,7 @@ i:focus, i:hover{
 }
 .skill-desc-body{
     padding: 0.5rem;
-    color: rgb(208, 207, 216);
+    color: var(--text-color-light);
     text-align: left;
     overflow: hidden;
 
@@ -256,7 +260,7 @@ i:focus, i:hover{
 }
 .show-more-opt{
     width: fit-content;
-    color: rgb(198, 191, 236); /*changed*/
+    color: var(--accent); /*changed*/
     text-decoration: underline;
     cursor: pointer;
     position: relative;
@@ -264,13 +268,13 @@ i:focus, i:hover{
 }
 
 #tech-and-tools{
-    background-color: navy; /*changed*/
+    background-color: var(--primary-color); /*changed*/
     padding: 1.5rem;
 
 }
 #tech-and-tools>p:first-child{
     font-size: 2rem;
-    color: whitesmoke;
+    color: var(--text-color-light);
     text-align: center;
     font-family: Ubuntu, sans-serif;
     text-decoration: underline;
@@ -287,7 +291,7 @@ i:focus, i:hover{
     padding: 1rem;
 }
 .tool{
-    background-color: rgb(208, 207, 216); /*changed*/
+    background-color: var(--secondary-color); /*changed*/
 
     max-width: 60vw;
     padding: 1rem;
@@ -321,7 +325,7 @@ i:focus, i:hover{
     text-align: center;
    
     padding: 2rem 15rem;
-    background-color: whitesmoke; /*changed*/
+    background-color: var(--secondary-color); /*changed*/
     border-radius: 1rem 1rem 0 0 ;
 }
 
@@ -329,7 +333,7 @@ i:focus, i:hover{
     text-align: left;
     font-size: 2rem;
     font-family: Ubuntu, sans-serif;
-    color: navy;                  /*changed*/
+    color: var(--primary-color);                  /*changed*/
 }
 .contact-element{
     text-align: left;
@@ -340,10 +344,10 @@ i:focus, i:hover{
 }
 form{
     background-color: white;
-    border: 0.5px solid navy;     /*changed*/  
+    border: 0.5px solid var(--primary-color);     /*changed*/  
     border-radius: 1rem;
 
-    color: navy;              /*changed*/
+    color: var(--text-color-dark);              /*changed*/
 }
 label{
     margin: 5px;
@@ -355,7 +359,7 @@ label{
     padding: 10px;
     width: 100%;
     border-radius: 10px;
-    border: 1px solid navy;             /*changed*/
+    border: 1px solid var(--primary-color);             /*changed*/
 
     font-family: Lora, serif;
 
@@ -365,31 +369,32 @@ label{
 .input:focus{
     border: none;
     outline: none;
-    box-shadow: 0 0 5px 5px rgb(175, 174, 236); /*changed*/
+    box-shadow: 0 0 5px 5px var(--secondary-color); /*changed*/
 }
 button[type="submit"]{
-    padding: 10px;
+    padding: 10px 20px;
     font-size: 1.2rem;
     margin: 10px 0;
 
-    background-color: navy;      /*changed*/
-    color: whitesmoke;                 /*changed*/
+    background-color: var(--primary-color);      /*changed*/
+    color: var(--text-color-light);                 /*changed*/
     border-radius: 1rem;
-    border: 1px solid navy;           /*changed*/
+    border: 1px solid var(--primary-color);           /*changed*/
 
     font-weight: 600;
     font-family: Ubuntu, sans-serif;
+    letter-spacing: 0.1em;
     transition: all 150ms ease;
 }
 button:hover{
     
-    box-shadow: 0 0 5px 5px rgb(174, 236, 198);
+    box-shadow: 0 0 5px 5px var(--text-color-light);
     cursor: pointer;
 }
 
 footer{
-    background-color: navy; /*changed*/
-    color: white;
+    background-color: var(--primary-color); /*changed*/
+    color: var(--text-color-light);
     padding: 1rem 0;
 
     display: flex;
@@ -398,7 +403,7 @@ footer{
     font-family: Muli, sans-serif;
 }
 footer a{
-    color: white;
+    color: var(--text-color-light);
     
     transition: 200ms;
 }
@@ -465,7 +470,7 @@ footer div{
     #icon-for-nav-small{
         display: initial;
         font-size: large;
-        color: navy;      /*changed*/
+        color: var(--text-color-dark);      /*changed*/
     }
     #icon-to-close-nav-small{
         display: initial;
@@ -478,7 +483,7 @@ footer div{
         display: initial;
         width: 0px;
 
-        background-color: whitesmoke;  /*changed*/
+        background-color: var(--secondary-color);  /*changed*/
 
         border-radius: 1rem;
         /* padding: 1rem; */
@@ -500,7 +505,7 @@ footer div{
         border-bottom: 1px solid silver;
     }
     .nav-link a{
-        color: navy;  /*changed*/
+        color: var(--text-color-dark);  /*changed*/
     }
 
     .skill{
