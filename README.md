@@ -1,9 +1,6 @@
 ### Hi there 👋
 
-I am an aspiring web developer. With a degree in CSE and a love for design and puzzles, I like making websites that are functional and pleasing to the eyes. I also have a knack for floor plans and aeroplanes. 
-In my spare time, I love to browse Youtube, watch cartoons, learn a language or, simply, go outside for some fresh air.
-
-- 🔭 I’m currently working on a web project.
+I am an aspiring software developer and researcher. 
 
 <!--
 **mstrifaa/mstrifaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
