@@ -1,6 +1,7 @@
 ### Hi there 👋
 
-I am an aspiring software developer and researcher. 
+I am an aspiring software developer and researcher. I have a Bachelors in Computer Science and Engineering. I like to learn about technology in healthcare and environment, and I am interested to collaborate on projects geared towards using technology to improve healthcare, and the living standards of people. 
+I also have a knack for maps, living space designs and product development. 
 
 <!--
 **mstrifaa/mstrifaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
