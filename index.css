@@ -167,12 +167,12 @@ a:hover{
 
 #my-description > div:last-child > p:last-child{
     font-size: 1em;
-    letter-spacing: 0.3rem;
+    /* letter-spacing: 0.3rem; */
 }
 #my-description div:last-child p::first-letter{
     font-size: 1.5em;
     /* font-weight: bold; */
-    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Dancing Script', cursive; */
   
 }
 
@@ -522,3 +522,4 @@ footer div{
         padding: 2rem;
     }
 }
+
