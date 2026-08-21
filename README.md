@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I am an aspiring systems designer and researcher. I have a Bachelors in Computer Science and Engineering. As an avid learner, I like to learn about a lot of things: things related, and unrelated, to technology. Being able to make something with my hands, learn a new tool or solve a problem give me immense satisfaction.
+I am an aspiring systems designer and researcher. I have a Bachelors in Computer Science and Engineering. As an avid learner, I like to learn about a lot of things: things related, and unrelated, to technology - I find myself spending a large portion of my time going through science and maths topics. I also have a knack for building things. Being able to make something with my hands, learn a new tool and solve a problem give me immense satisfaction.
 
 I am highly passionate about functional, safe, reliable, environment-friendly, and beautiful designs of ... just about everything. When I experience a good design, I make sure to learn from it; when I spot a bad design, I start thinking of solutions for it.
 
